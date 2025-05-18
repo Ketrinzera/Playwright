@@ -1,0 +1,24 @@
+{
+  "name": "playwright-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:Headless": "playwright test",
+    "test:headed": "playwright test --headed --project=webkit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ketrinzera/Playwright.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ketrinzera/Playwright/issues"
+  },
+  "homepage": "https://github.com/Ketrinzera/Playwright#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.18"
+  }
+}
